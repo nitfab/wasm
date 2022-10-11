@@ -1,23 +1,9 @@
 package main
 
-import "fmt"
-
-// "fmt"
-// "syscall/js"
-
-// var htmlString = `<h4>Hello, I'm an HTML snippet from Go!</h4>`
-
-// func GetHtml() js.Func {
-// 	return js.FuncOf(func(this js.Value, args []js.Value) interface{} {
-// 		return htmlString
-// 	})
-// }
+import (
+	"fmt"
+)
 
 func main() {
-
-	// ch := make(chan struct{}, 0)
-	fmt.Printf("Hello Web Assembly from Go!\n")
-
-	// js.Global().Set("getHtml", GetHtml())
-	// <-ch
+	fmt.Println("Hello World")
 }
